@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <tittle>Variáveis</tittle>
+    </head>
+    <body>
+        <script>
+        var nome = 'Cicília'
+        var idade = 23
+        var peso = 63
+        var humano = true
+
+
+        
+        var aluno1 = {
+            nome: 'Cicília',
+            idade: 23,
+            peso: 63,
+            humano: true
+        }
+        var aluno2 = { 
+            nome: 'Ana',
+            idade: 21,
+            peso: 55,
+            humano: true
+        }
+        var aluno3 = {
+            nome: 'Julia',
+            idade: 25,
+            peso: 66,
+            humano: true
+        }
+
+        var alunos = [aluno1, aluno2, aluno3]
+
+        
+        var somasdasidades = 0
+        var i
+        for ( i = 0; i < alunos.length; i ++){
+            somasdasidades += alunos[i].idade
+        }
+
+        console.log('A soma das idades de todos os alunos é: ', somasdasidades)
+
+        </script>
+    </body>
+</html>
